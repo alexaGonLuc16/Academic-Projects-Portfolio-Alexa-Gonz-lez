@@ -1,5 +1,5 @@
-# Welcome to My Project Portfolio 👋
-
+# Alexa Gonzalez
+## Welcome to My Project Portfolio 👋
 This repository showcases selected **academic and technical projects** that highlight my experience in **robotics, embedded systems, artificial intelligence, and IoT**.
 
 ## 📫 Contact
