@@ -4,7 +4,8 @@
 ## Overview
 This project focuses on the hardware implementation of the Advanced Encryption Standard (AES) algorithm on an Intel FPGA platform using VHDL. The main objective was to design an efficient, modular, and high-performance encryption architecture suitable for resource-constrained and real-time systems.
 
-The project was developed as part of an academic initiative and formally presented to Intel.
+## 📌 Project Context
+This project was developed collaboratively by the Robotics and Digital Systems Engineering generation at ITESM formally presented to Intel Guadalajara. 
 
 ## Project Objectives
 - Implement the AES encryption algorithm in hardware using VHDL
@@ -43,5 +44,6 @@ This FSM manages the execution flow of the algorithm, including round sequencing
 
 📄 Detailed FSM documentation:
 [*AES Control State Machine – Design Document*](Documentation/State_Machine_documentation.pdf)
+
 
 
