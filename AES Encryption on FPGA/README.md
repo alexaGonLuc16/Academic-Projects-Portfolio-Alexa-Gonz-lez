@@ -30,10 +30,18 @@ all coordinated through a control unit across multiple encryption rounds.
 
 For a visual and conceptual reference of the encryption process and its internal transformations, see: [*AES Rijndael Cipher – Animation (ZIP)*](AES_Algorithm_Animation)<br>
 <br>
+
 ## Project Implementation
 A detailed explanation of the system architecture, design decisions, and experimental results is available in the presentation below:
 
-[📄 **AES FPGA Design – Technical Presentation*](presentation/AES_FPGA_Intel_Presentation.pdf)
+[📄 **AES FPGA Design – Technical Presentation*](Documentation/AES_FPGA_Intel_Presentation.pdf)
 
+## AES Control State Machine
+
+The AES encryption process is coordinated by a dedicated Control Unit implemented as a Finite State Machine (FSM).
+This FSM manages the execution flow of the algorithm, including round sequencing, module activation, and timing control.
+
+📄 Detailed FSM documentation:
+[*AES Control State Machine – Design Document*](Documentation/State_Machine_documentation.pdf)
 
 
